@@ -1,0 +1,13 @@
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Infra.Data\bin\Debug\TechFit.Desafio.Infra.Data.dll
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Infra.Data\bin\Debug\TechFit.Desafio.Infra.Data.pdb
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Infra.Data\obj\Debug\TechFit.Desafio.Infra.Data.csproj.CoreCompileInputs.cache
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Infra.Data\obj\Debug\TechFit.Desafio.Infra.Data.dll
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Infra.Data\obj\Debug\TechFit.Desafio.Infra.Data.pdb
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Infra.Data\bin\Debug\Dapper.dll
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Infra.Data\bin\Debug\TechFit.Desafio.Dominio.dll
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Infra.Data\bin\Debug\TechFit.Desafio.Dominio.pdb
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Infra.Data\bin\Debug\Dapper.xml
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Infra.Data\obj\Debug\TechFit.Desafio.Infra.Data.csprojAssemblyReference.cache
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Infra.Data\obj\Debug\TechFit.Desafio.Infra.Data.csproj.CopyComplete
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Infra.Data\bin\Debug\FluentValidation.dll
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Infra.Data\bin\Debug\FluentValidation.xml

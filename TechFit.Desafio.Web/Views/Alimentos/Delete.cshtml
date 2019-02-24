@@ -1,0 +1,104 @@
+﻿@model TechFit.Desafio.Aplicacao.ViewModels.AlimentosViewModel
+
+@{
+    ViewBag.Title = "Deletar";
+}
+
+<h2>Deletar</h2>
+
+<h3>Deseja realmente deletar?</h3>
+<div>
+    <h4>Alimentos</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QtdGramas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QtdGramas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Calorias)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Calorias)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Carboidratos)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Carboidratos)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Proteinas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Proteinas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GordurasTotais)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GordurasTotais)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GordurasSaturadas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GordurasSaturadas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FibraAlimentar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FibraAlimentar)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sodio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sodio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Medida)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Medida)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Deletar" class="btn btn-default" /> |
+            @Html.ActionLink("Voltar", "Index")
+        </div>
+    }
+</div>

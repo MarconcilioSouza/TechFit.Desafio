@@ -1,0 +1,13 @@
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Dominio\bin\Debug\TechFit.Desafio.Dominio.dll
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Dominio\bin\Debug\TechFit.Desafio.Dominio.pdb
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Dominio\obj\Debug\TechFit.Desafio.Dominio.csproj.CoreCompileInputs.cache
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Dominio\obj\Debug\TechFit.Desafio.Dominio.dll
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Dominio\obj\Debug\TechFit.Desafio.Dominio.pdb
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Dominio\obj\Debug\TechFit.Desafio.Dominio.csprojAssemblyReference.cache
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Dominio\bin\Debug\FluentValidation.dll
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Dominio\bin\Debug\System.ComponentModel.Annotations.dll
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Dominio\bin\Debug\System.ComponentModel.Primitives.dll
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Dominio\bin\Debug\System.ValueTuple.dll
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Dominio\bin\Debug\FluentValidation.xml
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Dominio\bin\Debug\System.ValueTuple.xml
+A:\Fontes\TechFit.Desafio\TechFit.Desafio.Dominio\obj\Debug\TechFit.Desafio.Dominio.csproj.CopyComplete

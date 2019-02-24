@@ -1,0 +1,89 @@
+﻿@model IEnumerable<TechFit.Desafio.Aplicacao.ViewModels.AlimentosViewModel>
+
+@{
+    ViewBag.Title = "Alimentos";
+}
+
+<h2>Alimentos</h2>
+
+<p>
+    @Html.ActionLink("Adicionar Novo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QtdGramas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Calorias)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Carboidratos)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Proteinas)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.GordurasTotais)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GordurasSaturadas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FibraAlimentar)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sodio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Medida)
+        </th>*@
+        <th>
+            Ação
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.QtdGramas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Calorias)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Carboidratos)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Proteinas)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.GordurasTotais)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GordurasSaturadas)
+        </td>*@
+        @*<td>
+            @Html.DisplayFor(modelItem => item.FibraAlimentar)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sodio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Medida)
+        </td>*@
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.IdAlimento }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.IdAlimento }) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.IdAlimento })
+        </td>
+    </tr>
+}
+
+</table>
